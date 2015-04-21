@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpBinairoSolver", "CSharpBinairoSolver\CSharpBinairoSolver.csproj", "{86D553EA-273E-4D7E-9FD2-2B3D187E0011}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UnitTests", "UnitTests", "{295ACBA7-E090-45B0-A82B-CBAF1378FA5A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpBinairoSolverTests", "SolverTests\CSharpBinairoSolverTests.csproj", "{F1BC2F29-F119-4781-955B-68228F0EC1BB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{86D553EA-273E-4D7E-9FD2-2B3D187E0011}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86D553EA-273E-4D7E-9FD2-2B3D187E0011}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86D553EA-273E-4D7E-9FD2-2B3D187E0011}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86D553EA-273E-4D7E-9FD2-2B3D187E0011}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1BC2F29-F119-4781-955B-68228F0EC1BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1BC2F29-F119-4781-955B-68228F0EC1BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1BC2F29-F119-4781-955B-68228F0EC1BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1BC2F29-F119-4781-955B-68228F0EC1BB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F1BC2F29-F119-4781-955B-68228F0EC1BB} = {295ACBA7-E090-45B0-A82B-CBAF1378FA5A}
+	EndGlobalSection
+EndGlobal
